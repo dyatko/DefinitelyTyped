@@ -17,7 +17,7 @@ declare namespace braintree {
      * @param {callback} callback The second argument, `data`, is the {@link AmericanExpress} instance.
      * @returns {void}
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -197,7 +197,7 @@ declare namespace braintree {
      * @param {callback} callback The second argument, `data`, is the {@link ApplePay} instance.
      * @returns {void}
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -359,7 +359,7 @@ declare namespace braintree {
      * });
      * @static
      */
-    create: (options: { authorization: string }, callback: callback) => void;
+    create (options: { authorization: string }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -439,7 +439,7 @@ declare namespace braintree {
      * @param {callback} callback The second argument, `data`, is the {@link DataCollector} instance.
      * @returns {void}
      */
-    create: (options: { client: Client, kount: boolean, paypal: boolean }, callback: callback) => void;
+    create (options: { client: Client, kount: boolean, paypal: boolean }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -666,7 +666,7 @@ declare namespace braintree {
      *   }
      * }, callback);
      */
-    create: (options: { client: Client, fields: HostedFieldFieldOptions, styles: any }, callback: callback) => void;
+    create (options: { client: Client, fields: HostedFieldFieldOptions, styles: any }, callback: callback): void;
 
 
     /**
@@ -986,7 +986,7 @@ declare namespace braintree {
      * });
      * @returns {void}
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -1138,7 +1138,7 @@ declare namespace braintree {
      *   client: client
      * }, callback);
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -1311,7 +1311,7 @@ declare namespace braintree {
      *   // ...
      * });
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `3.0.2`.
@@ -1534,7 +1534,7 @@ declare namespace braintree {
      * @param {callback} callback The second argument, `data`, is the {@link USBankAccount} instance.
      * @returns {void}
      */
-    create: (options: { client: Client }, callback: callback) => void;
+    create (options: { client: Client }, callback: callback): void;
 
     /**
      * @description The current version of the SDK, i.e. `{@pkg version}`.
